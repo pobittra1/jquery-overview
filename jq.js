@@ -87,6 +87,42 @@ $(document).ready(function () {
 
 
 
+
+
+    //--------------------------document traversal methods--------------------------
+    // .parent(), parents(), .siblings(), .child(), .next(), .prev(), .find(), .children()
+
+    // Example of .parent() method
+    let parentElement = $("#headingOne").parent();
+    console.log("Parent Element of headingOne is:  ", parentElement);
+
+    // Example of .parents() method
+    let allParents = $("#headingOne").parents();
+    console.log("All Parent Elements of headingOne is:", allParents);
+
+    // Example of .siblings() method
+    let siblingElements = $("#headingOne").siblings();
+    console.log("Sibling Elements of headingOne is:", siblingElements);
+
+    // Example of .children() method
+    let childElements = $("#headingOne").children();
+    console.log("Child Elements of headingOne is:", childElements);
+
+    // Example of .next() method
+    let nextElement = $("#headingOne").next();
+    console.log("Next Element of headingOne is:", nextElement);
+
+    // Example of .prev() method
+    let previousElement = $("#headingOne").prev();
+    console.log("Previous Element of headingOne is:", previousElement);
+
+    // Example of .find() method
+    let foundElements = $("#headingOne").find(".childClass");
+    console.log("Found Elements of headingOne is:", foundElements);
+
+
+
+
 });
 
 
