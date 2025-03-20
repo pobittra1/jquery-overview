@@ -8,3 +8,10 @@
 .heading-style2 {
     color: green;
 }
+
+.fontSizeIncOrDec {
+    font-size: 50px;
+    padding: 8px 20px;
+    border: 1px solid green;
+    margin: 8px;
+}

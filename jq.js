@@ -27,6 +27,9 @@ $(document).ready(function () {
     // get css property value of headingOne
     let cssValue = $("#headingOne").css("color");
     // console.log(cssValue);
+    //set css property value of headingOne that is cursor pointer
+    let setCssProperty = $("#headingOne").css("cursor", "pointer");
+
 
 
 
@@ -52,6 +55,39 @@ $(document).ready(function () {
     });
 
 
+
+
+
+    //about event handling that is click, dblclick, mouseenter, mouseleave, mouseover, mouseout, mousemove, keydown, keyup, keypress, focus, blur, change, submit, resize, scroll, load, unload etc.--------------------------
+
+
+    //mouseover event example
+    //add class property for #forEventPractise when mouse over on it
+    $("#forEventPractise").mouseover(function () {
+        $(this).css("cursor", "pointer");
+    }
+    );
+
+
+    //click event example
+    //add class for #headingOne when click on it
+    $("#forEventPractise").click(function () {
+        $(this).toggleClass("fontSizeIncOrDec");
+    });
+
+
+    //dblclick event example
+    //get the css all property and value of .fontSizeIncOrDec class when double click on it also print it in console
+    $("#fordbClick").dblclick(function () {
+        $(this).css("fontSize", "100px")
+    });
+
+
+    //have more events. all event structure are same. so i can't repeat it again
+
+
+
 });
+
 
 
