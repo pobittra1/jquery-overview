@@ -10,7 +10,13 @@ $(document).ready(function () {
     let headingContent2 = $("#headingOne").text();
     // console.log(headingContent2);
 
-    // .val(), .attr(), .css() methods
+
+
+
+
+    // --------------.val(), .attr(), .css() methods----------------
+
+    // get value of input field using .val() method
     let inputVal = $("#inputFieldOne").val();
     // console.log(inputVal);
 
@@ -21,6 +27,31 @@ $(document).ready(function () {
     // get css property value of headingOne
     let cssValue = $("#headingOne").css("color");
     // console.log(cssValue);
+
+
+
+
+
+
+
+    // -------------addClass(), removeClass(), toggleClass() methods-----------------
+
+    //add class that name is heading-style2 to headingOne
+    $("#headingOne").addClass("heading-style2");
+
+
+    //remove class that name is heading-style2 from headingOne
+    $("#headingOne").removeClass("heading-style2");
+
+    //toggle class that name is heading-style2 from headingOne 
+    //its actually work based on click event or like any event.
+    // $("#headingOne").toggleClass("heading-style2");
+    //example of toggleClass() method using click event
+    $("#headingOne").click(function () {
+        $(this).toggleClass("heading-style2");
+    });
+
+
 });
 
 
