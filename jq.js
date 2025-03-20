@@ -203,6 +203,40 @@ $(document).ready(function () {
 
 
 
+
+    // -----------------------dom manipulation methods-------------------
+    // Example of .append() method
+    $("#append").click(function () {
+        $("#domModificationBtn").append("<p>Appended content</p>");
+    });
+
+    // Example of .prepend() method
+    $("#prepend").click(function () {
+        $("#domModificationBtn").prepend("<p>Prepended content</p>");
+    });
+
+    // Example of .after() method
+    $("#after").click(function () {
+        $("#domModificationBtn").after("<p>Content added after</p>");
+    });
+
+    // Example of .before() method
+    $("#before").click(function () {
+        $("#domModificationBtn").before("<p>Content added before</p>");
+    });
+
+    // Example of .remove() method
+    $("#remove").click(function () {
+        $("#domModificationBtn").remove();
+    });
+
+    // Example of .empty() method
+    $("#empty").click(function () {
+        $("#domModificationBtn").empty();
+    });
+
+
+
 });
 
 

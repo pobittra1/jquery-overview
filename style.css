@@ -16,29 +16,19 @@
     margin: 8px;
 }
 
-#forAnimationArea {
+#forAnimationArea,
+#Events,
+#forDomModification {
     padding: 8px 12px;
     border: 1px solid red;
     width: fit-content;
     cursor: pointer;
-}
-
-#forAnimationArea h1 {
-    text-align: center;
-    text-transform: capitalize;
-    margin: 8px 0px;
-    text-decoration: underline;
-}
-
-#Events {
-    padding: 8px 12px;
-    border: 1px solid red;
     margin-top: 10px;
-    width: fit-content;
-    cursor: pointer;
 }
 
-#Events h1 {
+#forAnimationArea h1,
+#Events h1,
+#forDomModification h1 {
     text-align: center;
     text-transform: capitalize;
     margin: 8px 0px;
