@@ -123,6 +123,86 @@ $(document).ready(function () {
 
 
 
+
+
+    // ---------------------Animation effect methods------------------
+    // .hide(), .show(), .toggle(), .fadeIn(), fadeOut(), .fadeToggle(), .slideUp(), .slideDown(), .slideToggle(), .animate().
+
+
+    // Example of .hide() method
+    $(".hideButton").click(function () {
+        $(".hideButton").hide();
+    });
+
+
+
+    // Example of .show() method
+    $(".forShowButton").click(function () {
+        $("#animShowButton").show();
+    });
+
+
+
+    // Example of .toggle() method
+    $("#hideOrShow").click(function () {
+        $("#animShowButton").toggle();
+    });
+
+
+
+    // Example of .fadeIn() method
+    $("#fadeIn").click(function () {
+        $("#animShowButton").fadeIn();
+    });
+
+
+    // Example of .fadeOut() method
+    $("#fadeOut").click(function () {
+        $("#animShowButton").fadeOut();
+    });
+
+
+
+    // Example of .fadeToggle() method
+    $("#fadeToggle").click(function () {
+        $("#animShowButton").fadeToggle();
+    });
+
+
+
+    // Example of .slideUp() method
+    $("#slideUp").click(function () {
+        $("#animShowButton").slideUp(500);
+    });
+
+
+
+    // Example of .slideDown() method
+    $("#slideDown").click(function () {
+        $("#animShowButton").slideDown(500);
+    });
+
+
+
+    // Example of .slideToggle() method
+    $("#slideToggle").click(function () {
+        $("#animShowButton").slideToggle(500);
+    });
+
+
+
+    // Example of .animate() method
+    $("#animate").click(function () {
+        $("#animShowButton").animate({
+            fontSize: "50px",
+            opacity: 0.5,
+            marginLeft: "50px"
+        }, 1000);
+    });
+
+
+
+
 });
 
 
